@@ -1,15 +1,35 @@
 <html>
 <head>
 <title>WeiQi Tao</title>
+<style type="text/css">
+.div-relative{position:relative; color:#000;  width:100%; height:100%} 
+
+.div-a{
+	position:absolute; 
+	 left:0px;
+	 top:0px; 
+	 width:100%; 
+	 height:100%;
+	 z-index:-1;
+}
+.div-b{ 
+	position:absolute; 
+	top:150px; 
+	background: #f00
+} 
+/* 背景为黄色 */ 
+</style>
 </head>
 <body>
     <center>
-  	<div>
-		<img src="imgs/bg.jpg" height="100%" width="100%">
-  	</div>
-  	<h1>
-		哥是老中医，专治哈流弊
-  	</h1>
+	    <div class="div-relative">
+		  	<div class="div-a">
+				<img src="imgs/bg.jpg" height = 100%" width="100%">
+		  	</div>
+		  	<h1 class="div-b" >
+				哥是老中医，专治哈流弊
+		  	</h1>
+	  	</div>
     </center>
     <hr>
 
