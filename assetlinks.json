@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.iflyrec.oversea",
+    "sha256_cert_fingerprints":
+    ["0E:2A:24:82:85:C0:59:76:72:7D:E0:8D:BF:2C:7C:00:D0:1A:2A:F0:50:6D:A2:16:9B:D3:46:2F:6A:68:E0:44"]
+  }
+}]
